@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 2em;
+    border: 0.1em solid black;
+    background-color: black;
+}
+
+#titulo {
+    top: 0;
+    color: gold;
+    font-size: 3.5em;
+}
+
+#logo {
+    width: 9%;
+    position: absolute;
+    top: 90px;
+    left: 990px;
+    border: 0.1em solid black;
+    background-color: white;
+}
+
+.subtitle {
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+    background-color: black;
+    border-top: 0.1em solid white;
+}
+
+nav,
+.home-content {
+    display: inline-block;
+}
+
+.home-content h3,
+p {
+    background-color: white;
+    margin: 1em;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    position: sticky;
+    width: 20%;
+    top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5em;
+    background-color: rgb(167, 147, 36);
+    color: black;
+    border: 0.1em solid black;
+    margin: 3em;
+}
+
+.home-content {
+    width: 60%;
+    height: 60vh;
+    position: absolute;
+    top: 250px;
+    left: 430px;
+    background-image: url(./hockey1.jpg);
+}
+
+.home-content p,
+h3 {
+    padding: 1em;
+}
+
+#active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/*------ABOUT-----*/
+
+#seccion-about {
+    background-color: white;
+    width: 65%;
+    position: absolute;
+    top: 250px;
+    left: 430px;
+}
+
+#seccion-about h2 {
+    text-align: center;
+    background-color: rgb(168, 159, 105);
+    color: black;
+    padding: 1em;
+}
+
+section p {
+    padding: 0.5em 1em;
+}
+
+
+/*CONTACT*/
+
+article img {
+    width: 90%;
+    position: absolute;
+    top: 90px;
+    left: 60px;
+}
+
+article {
+    width: 60%;
+    position: absolute;
+    top: 250px;
+    left: 430px;
+}
+
+.main-contact {
+    height: 50em;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(168, 159, 105);
+    padding: 1em;
+}

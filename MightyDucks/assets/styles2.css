@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#titulo {
+    top: 0;
+    color: gold;
+    font-size: 3.5em;
+}
+
+header {
+    background-image: url("./design2_image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+#logo {
+    width: 10%;
+    position: absolute;
+    top: 290px;
+    left: 90px;
+    border: 0.1em solid black;
+    background-color: white;
+}
+
+.subtitle {
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+    background-color: black;
+}
+
+.home-content {
+    width: 60%;
+    height: 60vh;
+    position: absolute;
+    top: 250px;
+    left: 330px;
+    background-image: url(./hockey2.jpg);
+    padding: 1em;
+}
+
+#navbar {
+    position: absolute;
+    top: 0;
+    margin-left: 70em;
+    margin-top: 1em;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 0.5em;
+    border: .1em double gold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+}
+
+#navbar a:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+#seccion-about {
+    font-weight: bold;
+    width: 65%;
+    position: absolute;
+    top: 290px;
+    left: 430px;
+}
+
+article img {
+    width: 60%;
+    margin-left: 20em;
+}
+
+article h2 {
+    text-align: center;
+    margin: 0.5em;
+}
+
+#foot2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.5em auto;
+    border: 0.2em double red;
+}
